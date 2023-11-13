@@ -3,7 +3,7 @@ import Button from '@/components/ui/button'
 
 export const LandingProfil = () => {
   return (
-    <section className="flex py-16">
+    <section className="flex py-26">
       <Container>
         <div className="border-r border-black space-y-4">
           <p className="text-sm text-dark">Profil Singkat</p>
