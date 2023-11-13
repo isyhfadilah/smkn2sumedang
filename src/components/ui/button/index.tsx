@@ -49,7 +49,7 @@ export const Button: React.FC<ButtonProps> = ({
   const classNames = []
   switch (variant) {
     case 'primary':
-      classNames.push('text-white bg-primary')
+      classNames.push('text-white bg-gradient-to-r from-[#1358A0] to-primary shadow-[#1358A0]')
       break
     case 'secondary':
       classNames.push('text-white bg-secondary')

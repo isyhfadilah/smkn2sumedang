@@ -17,13 +17,7 @@ export const LandingHero = () => {
           Konsiste, Amanah.
         </p>
         <div>
-          <Button
-            text={'Contact Us'}
-            href="/"
-            variant="primary"
-            rounded="full"
-            className="bg-gradient-to-r from-[#1358A0]  to-primary shadow-[#1358A0]"
-          />
+          <Button text={'Contact Us'} href="/" variant="primary" rounded="full" />
         </div>
       </Container>
       <div className="mt-26 bg-white py-6">
