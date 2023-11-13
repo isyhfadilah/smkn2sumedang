@@ -23,7 +23,7 @@ export default defineConfig({
       secondary: '#FFBB38',
       dark: '#FF6B00',
       'dark-gray': '#373435',
-      stoke: '#3A3A3A'
+      stoke: '#060919'
     }
   },
   transformers: [

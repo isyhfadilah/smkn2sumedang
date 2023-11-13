@@ -1,6 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
 import { Navbar } from '@/components/common/navbar'
+import { Footer } from '@/components/common/footer'
 
 export const metadata: Metadata = {
   title: 'SMKN 2 Sumedang',
@@ -13,6 +14,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     <React.Fragment>
       <Navbar />
       {children}
+      <Footer />
     </React.Fragment>
   )
 }

@@ -7,10 +7,10 @@ export const menu = [
     name: 'Profil',
     link: '/profil'
   },
-  {
-    name: 'Jurusan',
-    link: '/jurusan'
-  },
+  //   {
+  //     name: 'Jurusan',
+  //     link: '/jurusan'
+  //   },
   {
     name: 'Extrakurikuler',
     link: '/extrakurikuler'
