@@ -20,7 +20,7 @@ export const LandingHero = () => {
           <Button text={'Contact Us'} href="/" variant="primary" rounded="full" />
         </div>
       </Container>
-      <div className="mt-26 bg-white py-6">
+      <div className="mt-26 bg-white py-6 shadow-md">
         <Container className="grid grid-cols-4 divide-x divide-black">
           {jurusan.map((item, index) => (
             <CardJurusan key={index} title={item.name} icon={item.icon} link={item.link} />
