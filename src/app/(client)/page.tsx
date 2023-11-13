@@ -1,7 +1,9 @@
+import { LandingHero } from '@/components/common/sections/landing'
+
 export default function Home() {
   return (
     <main>
-      <span className="text-primary font-quicksand font-bold">Installed</span>
+      <LandingHero />
     </main>
   )
 }
