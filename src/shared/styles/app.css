@@ -494,10 +494,12 @@
 .z-10{z-index:10;}
 .grid{display:grid;}
 .grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
+.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr));}
 .mx-auto{margin-left:auto;margin-right:auto;}
 .mb-4{margin-bottom:1rem;}
 .mb-6{margin-bottom:1.5rem;}
 .mr-10{margin-right:2.5rem;}
+.mt-26{margin-top:6.5rem;}
 .inline-block{display:inline-block;}
 .hidden{display:none;}
 .\!w-full{width:100% !important;}
@@ -533,6 +535,8 @@
 .space-y-1>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(0.25rem * var(--un-space-y-reverse));}
 .space-y-2>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(0.5rem * var(--un-space-y-reverse));}
 .space-y-6>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1.5rem * var(--un-space-y-reverse));}
+.divide-x>:not([hidden])~:not([hidden]){--un-divide-x-reverse:0;border-left-width:calc(1px * calc(1 - var(--un-divide-x-reverse)));border-right-width:calc(1px * var(--un-divide-x-reverse));}
+.divide-black>:not([hidden])~:not([hidden]){--un-divide-opacity:1;border-color:rgba(0,0,0,var(--un-divide-opacity));}
 .\!border{border-width:1px !important;}
 .border{border-width:1px;}
 .border-b{border-bottom-width:1px;}
@@ -578,6 +582,7 @@
 .bg-no-repeat{background-repeat:no-repeat;}
 .p-0{padding:0;}
 .p-2{padding:0.5rem;}
+.px-2{padding-left:0.5rem;padding-right:0.5rem;}
 .px-3{padding-left:0.75rem;padding-right:0.75rem;}
 .px-4{padding-left:1rem;padding-right:1rem;}
 .px-5{padding-left:1.25rem;padding-right:1.25rem;}
@@ -588,11 +593,12 @@
 .py-2px{padding-top:2px;padding-bottom:2px;}
 .py-3{padding-top:0.75rem;padding-bottom:0.75rem;}
 .py-5{padding-top:1.25rem;padding-bottom:1.25rem;}
-.py-56{padding-top:14rem;padding-bottom:14rem;}
+.py-6{padding-top:1.5rem;padding-bottom:1.5rem;}
 .pb-6{padding-bottom:1.5rem;}
 .pl-11{padding-left:2.75rem;}
 .pl-4{padding-left:1rem;}
 .pr-4{padding-right:1rem;}
+.pt-56{padding-top:14rem;}
 .text-center{text-align:center;}
 .text-left{text-align:left;}
 .font-quicksand{font-family:"Quicksand";}

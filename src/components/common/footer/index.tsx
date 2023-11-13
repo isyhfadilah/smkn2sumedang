@@ -1,47 +1,9 @@
 import Container from '../layouts/Container'
 import Image from 'next/image'
 import Link from 'next/link'
-import { menu } from '@/data/menu'
+import { menu, jurusan, jelajah } from '@/data/menu'
 
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
-
-const jelajah = [
-  {
-    name: 'Profil Singkat',
-    link: '/profil'
-  },
-  {
-    name: 'Berita Terbaru',
-    link: '/berita'
-  },
-  {
-    name: 'Website PPDB',
-    link: '/website'
-  },
-  {
-    name: 'Aplikasi Pemilihan Osis',
-    link: '/aplikasi'
-  }
-]
-
-const jurusan = [
-  {
-    name: 'Akuntansi',
-    link: '/akuntansi'
-  },
-  {
-    name: 'Manajemen Perkantoron dan Layanan Bisnis',
-    link: '/manajemen'
-  },
-  {
-    name: 'Pemasaran',
-    link: '/pemasaran'
-  },
-  {
-    name: 'Pengembangan Perangkat Lunak dan Gim',
-    link: '/pengembangan'
-  }
-]
 
 const social = [
   {
