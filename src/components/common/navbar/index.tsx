@@ -6,7 +6,7 @@ import { contact } from '@/data/contact'
 
 export const Navbar = () => {
   return (
-    <nav className="w-full fixed z-10">
+    <nav className="w-full fixed z-10 bg-white">
       <div className="bg-primary w-full py-3">
         <Container className="flex justify-end">
           <ul className="text-white text-sm flex space-x-8">
