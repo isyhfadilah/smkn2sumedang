@@ -68,7 +68,7 @@ const social = [
 
 export const Footer = () => {
   return (
-    <footer className="bg-stoke py-10">
+    <footer className="w-full bg-stoke py-10">
       <Container className="border-b border-dark pb-6 flex mb-6">
         <div className="w-3/5 mr-10 space-y-6">
           <div className="flex items-center space-x-4">
