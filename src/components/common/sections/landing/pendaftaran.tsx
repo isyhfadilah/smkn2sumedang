@@ -3,7 +3,7 @@ import Button from '@/components/ui/button'
 
 export const LandingPendaftaran = () => {
   return (
-    <section className="grid grid-cols-2 py-16">
+    <section className="grid grid-cols-2">
       <div className="bg-primary py-16">
         <Container className="space-y-6">
           <h1 className="text-4xl text-white font-semibold">Pendaftaran Peserta Didik Baru (PPDB)</h1>

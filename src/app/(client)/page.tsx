@@ -1,4 +1,10 @@
-import { LandingHero, LandingProfil, LandingBerita, LandingPendaftaran } from '@/components/common/sections/landing'
+import {
+  LandingHero,
+  LandingProfil,
+  LandingBerita,
+  LandingPendaftaran,
+  LandingTestimoni
+} from '@/components/common/sections/landing'
 
 export default function Home() {
   return (
@@ -7,6 +13,7 @@ export default function Home() {
       <LandingProfil />
       <LandingBerita />
       <LandingPendaftaran />
+      <LandingTestimoni />
     </main>
   )
 }
