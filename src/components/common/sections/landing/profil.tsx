@@ -6,7 +6,7 @@ import { CardData } from '@/components/ui/cards/data'
 
 export const LandingProfil = () => {
   return (
-    <section className="py-26">
+    <section className="my-16">
       <Container className="grid grid-cols-2 items-center">
         <div className="border-r border-black space-y-4 w-full pr-10">
           <p className="text-sm text-dark">Profil Singkat</p>
