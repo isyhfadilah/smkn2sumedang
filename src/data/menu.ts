@@ -91,3 +91,22 @@ export const profil = [
       'Lokasi yang strategis, terletak dipusat kota, memberi kemudahan bagi siapa saja untuk menemukan sekolah ini.'
   }
 ]
+
+export const data = [
+  {
+    presentase: '4',
+    title: 'Kompentensi Keahlian'
+  },
+  {
+    presentase: '16',
+    title: 'Rombongan Belajar'
+  },
+  {
+    presentase: '1700+',
+    title: 'Siswa'
+  },
+  {
+    presentase: '100+',
+    title: 'Staf Pengajar'
+  }
+]
