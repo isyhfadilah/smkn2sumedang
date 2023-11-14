@@ -583,6 +583,8 @@
 .\!bg-opacity-50{--un-bg-opacity:0.5 !important;}
 .disabled\:bg-opacity-50:disabled{--un-bg-opacity:0.5;}
 .from-\[\#1358A0\]{--un-gradient-from-position:0%;--un-gradient-from:rgba(19,88,160,var(--un-from-opacity, 1)) var(--un-gradient-from-position);--un-gradient-to-position:100%;--un-gradient-to:rgba(19,88,160,0) var(--un-gradient-to-position);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}
+.from-\[\#FF9B00\]{--un-gradient-from-position:0%;--un-gradient-from:rgba(255,155,0,var(--un-from-opacity, 1)) var(--un-gradient-from-position);--un-gradient-to-position:100%;--un-gradient-to:rgba(255,155,0,0) var(--un-gradient-to-position);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}
+.to-\[\#ED1C24\]{--un-gradient-to-position:100%;--un-gradient-to:rgba(237,28,36,var(--un-to-opacity, 1)) var(--un-gradient-to-position);}
 .to-primary{--un-gradient-to-position:100%;--un-gradient-to:rgba(7,41,77,var(--un-to-opacity, 1)) var(--un-gradient-to-position);}
 .bg-gradient-to-r{--un-gradient-shape:to right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}
 .bg-cover{background-size:cover;}
@@ -598,6 +600,7 @@
 .px-9{padding-left:2.25rem;padding-right:2.25rem;}
 .py-0\.6rem{padding-top:0.6rem;padding-bottom:0.6rem;}
 .py-10{padding-top:2.5rem;padding-bottom:2.5rem;}
+.py-16{padding-top:4rem;padding-bottom:4rem;}
 .py-2{padding-top:0.5rem;padding-bottom:0.5rem;}
 .py-2px{padding-top:2px;padding-bottom:2px;}
 .py-3{padding-top:0.75rem;padding-bottom:0.75rem;}
@@ -631,6 +634,7 @@
 .hover\:text-white:hover,
 .text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}
 .text-\[\#8C8CA1\]{--un-text-opacity:1;color:rgba(140,140,161,var(--un-text-opacity));}
+.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}
 .text-dark{--un-text-opacity:1;color:rgba(255,107,0,var(--un-text-opacity));}
 .text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}
 .text-primary{--un-text-opacity:1;color:rgba(7,41,77,var(--un-text-opacity));}
