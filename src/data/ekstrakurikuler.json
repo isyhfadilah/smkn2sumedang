@@ -1,81 +1,76 @@
 [
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/karate.png",
         "title": "Karate",
         "description": "Tergabung dalam Bandung Karate Club (BKC), dan kegiatan utamanya belajar ilmu bela diri terutama karate"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/ec.png",
         "title": "English Club",
         "description": "Merupakan ekstrakurikuler untuk belajar menambah kemampuan berbahasa inggris"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/paskibra.png",
         "title": "Paskibra",
         "description": "Merupakan ekstrakurikuler untuk belajar nilai-nilai kedisplinan dan cinta tanah air dan bela negarae Club (BKC), dan kegiatan utamanya belajar ilmu bela diri terutama karate"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/pencak-silat.png",
         "title": "Pencak Silat",
         "description": "Ekstrakurikuler untuk belajar ilmu bela diri khususnya pencak silat"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/pmr.png",
         "title": "Palang Merah remaja",
         "description": "Merupakan ekstrakurikuler untuk belajar kegiatan-kegiatan kemanusiaan dibidang kesehatan dan siaga bencana."
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/pramuka.png",
         "title": "Pramuka",
         "description": "Kegiatan belajar berbagai aktivitas yang dilakukan di alam terbuka, dikemas secara menarik dan menyenangkan."
     },
     {
-        "image": "/images/",
-        "title": "Karate",
-        "description": "Tergabung dalam Bandung Karate Club (BKC), dan kegiatan utamanya belajar ilmu bela diri terutama karate"
-    },
-    {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/rohis.png",
         "title": "Rohis",
         "description": "Merupakan ekstrakurikuler untuk mengembangkan serta belajar nilai-nilai kerohanian secara islami"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/senitari.png",
         "title": "Seni Tari",
         "description": "Merupakan ekstrakurikuler untuk mengembangkan potensi di bidang seni khususnya seni tari."
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/volly.png",
         "title": "Volley Ball",
         "description": "Ekstrakurikuler dengan kegiatan utama yakni berolahraga khususnya olahraga voleyball"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/basket.png",
         "title": "Basket",
         "description": "Ekstrakurikuler untuk mengembangkan potensi dan belajar di bidang olahraga khususnya cabang olahraga basket"
     }, 
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/dnp.png",
         "title": "Design and Printing",
         "description": "Merupakan ekstrakurikuler untuk belajar ilmu desain dan percetakan."
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/futsal.png",
         "title": "Futsal",
         "description": "Ekstrakurikuler untuk mengembangkan potensi dan belajar di bidang olahraga khususnya cabang olahraga basket"
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/media.png",
         "title": "Media Publikasi",
         "description": "Lorem ipsum dolor sit amet consectetur. Egestas imperdiet cursus magna vel non sed tincidunt arcu diam. Purus facilisis."
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/coding.png",
         "title": "Coding",
         "description": "Lorem ipsum dolor sit amet consectetur. Egestas imperdiet cursus magna vel non sed tincidunt arcu diam. Purus facilisis."
     },
     {
-        "image": "/images/",
+        "image": "/images/ekstrakurikuler/aksara.png",
         "title": "Aksara Gridas",
         "description": "Lorem ipsum dolor sit amet consectetur. Egestas imperdiet cursus magna vel non sed tincidunt arcu diam. Purus facilisis."
     }
