@@ -13,8 +13,8 @@ interface Props {
 export const CardBerita: React.FC<Props> = ({ tanggal, image, title, detail, link }) => {
   return (
     <figure className="shadow-lg border  py-4 px-3 bg-white rounded-lg">
-      <Image src={image} alt={title} height={48} width={48} className="w-full rounded-lg object-cover" />
-      <figcaption className="space-y-2">
+      <Image src={image} alt={title} height={200} width={200} className="w-full rounded-lg" />
+      <figcaption className="space-y-2 mt-2">
         <p className="text-sm font-medium">{tanggal}</p>
         <h1 className="text-lg font-semibold">{title}</h1>
         <p className="py-4">{detail}</p>

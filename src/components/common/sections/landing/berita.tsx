@@ -23,7 +23,7 @@ export const LandingBerita = () => {
             />
           ))}
         </div>
-        <Button text={'Lihat Lebih Banyak'} href="/" variant="primary" rounded="full" />
+        <Button text={'Lihat Lebih Banyak'} href="/berita" variant="primary" rounded="full" />
       </Container>
     </section>
   )
