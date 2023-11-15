@@ -1,0 +1,30 @@
+[
+    {
+        "icon": "/images/landing/mitra/sawala.png",
+        "name": "PT Sawala Inovasi Indonesia"
+    },
+    {
+        "icon": "/images/landing/mitra/makerindo.png",
+        "name": "PT Makerindo"
+    },
+    {
+        "icon": "/images/landing/mitra/yogya.png",
+        "name": "Griya"
+    },
+    {
+        "icon": "/images/landing/mitra/alfamart.png",
+        "name": "Alfamart"
+    },
+    {
+        "icon": "/images/landing/mitra/bankbjb.png",
+        "name": "Bank bjb"
+    },
+    {
+        "icon": "/images/landing/mitra/postindonesia.png",
+        "name": "Pos Indonesia"
+    },
+    {
+        "icon": "/images/landing/mitra/len.png",
+        "name": "PT Len"
+    }
+]
