@@ -10,15 +10,15 @@ interface Props {
 
 export const CardTestimoni: React.FC<Props> = ({ image, name, position, testimoni }) => {
   return (
-    <figure className="bg-white py-6 px-4 rounded-lg hover:bg-gradient-to-r hover:from-[#1358A0] hover:to-primary">
-      <div className="flex">
-        <Image src={image} alt={name} height={50} width={50} />
-        <div className="space-y-3 text-white">
+    <figure className="bg-[#F8F9FF] py-6 px-4 rounded-lg hover:bg-gradient-to-r hover:from-[#1358A0] hover:to-primary hover:text-white">
+      <div className="flex space-x-4">
+        <Image src={image} alt={name} height={85} width={50} className="rounded-full object-cover w-[85px] h-[85px]" />
+        <div className="space-y-1">
           <h1 className="text-lg font-medium">{name}</h1>
           <p className="text-sm">{position}</p>
         </div>
       </div>
-      <figcaption className="text-white">“{testimoni}“</figcaption>
+      <figcaption className="mt-4">“{testimoni}“</figcaption>
     </figure>
   )
 }
