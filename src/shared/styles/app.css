@@ -640,6 +640,7 @@
 .\!text-white{--un-text-opacity:1 !important;color:rgba(255,255,255,var(--un-text-opacity)) !important;}
 .hover\:text-white:hover,
 .text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}
+.text-\[\#065986\]{--un-text-opacity:1;color:rgba(6,89,134,var(--un-text-opacity));}
 .text-\[\#8C8CA1\]{--un-text-opacity:1;color:rgba(140,140,161,var(--un-text-opacity));}
 .text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}
 .text-dark{--un-text-opacity:1;color:rgba(255,107,0,var(--un-text-opacity));}

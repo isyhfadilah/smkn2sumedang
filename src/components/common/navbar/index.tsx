@@ -1,10 +1,15 @@
+'use client'
+
 import Container from '../layouts/Container'
 import Link from 'next/link'
 import Image from 'next/image'
 import { menu } from '@/data/menu'
 import { contact } from '@/data/contact'
+import { usePathname } from 'next/navigation'
+import { cn } from '@/lib/utils'
 
 export const Navbar = () => {
+  const pathname = usePathname()
   return (
     <nav className="w-full fixed z-10 bg-white">
       <div className="bg-primary w-full py-2">
@@ -25,10 +30,14 @@ export const Navbar = () => {
         <Link href="/">
           <Image src={'/icons/logo-smea-text.svg'} alt="smkn2sumedang" height={56} width={260}></Image>
         </Link>
-        <ul className="flex items-center space-x-6 text-primary font-medium">
+        <ul className="flex items-center space-x-6">
           {menu.map((item, index) => (
             <li key={index}>
-              <Link href={item.link}>{item.name}</Link>
+              <Link
+                href={item.link}
+                className={cn('text-primary', pathname === item.link ? 'font-bold text-[#065986]' : 'font-medium')}>
+                {item.name}
+              </Link>
             </li>
           ))}
         </ul>
