@@ -66,7 +66,7 @@ export const authOptions: NextAuthOptions = {
       session.jti = token?.jti
       return session
     },
-    async jwt({ token, user, account }: any) {
+    async jwt({ token, user }: any) {
       token.user = user?.user
       token.type = user?.type || 'user'
       token.jwt = user?.token as string

@@ -28,8 +28,6 @@ export const theme = (variant: Variant = 'default') => {
         borderColor: 'border-secondary'
       }
       break
-    case 'default':
-      className = className
     default:
       break
   }
