@@ -7,14 +7,16 @@ interface Props {
 }
 
 export const CardStruktural: React.FC<Props> = ({ image, name, position }) => {
-  const backgroundImage = {
-    backgroundImage: `url('${image}')`
-  }
-
   return (
-    <figure style={backgroundImage} className="bg-cover bg-no-repeat bg-center cursor-pointer rounded-lg">
-      <h1 className="font-bold text-white text-lg">{name}</h1>
-      <p className="text-white">{position}</p>
-    </figure>
+    <article
+      className="md:w-[280px] md:h-[340px] w-[160px] h-[220px] p-4 md:p-6 relative rounded-lg border-b-8 border-[#002C55] bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url('${image}')` }}>
+      <div className="text-white mt-auto h-40 absolute bottom-0 right-0 left-0 p-4 bg-gradient-to-b from-transparent to-[#0058AB]">
+        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
+          <p className="font-bold md:text-xl">{name}</p>
+          <p className="text-xs font-medium md:text-sm">{position}</p>
+        </div>
+      </div>
+    </article>
   )
 }

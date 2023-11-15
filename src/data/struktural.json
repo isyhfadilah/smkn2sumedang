@@ -1,0 +1,37 @@
+[
+    {
+        "image": "/images/profil/struktural/kepsek.png",
+        "name": "Dra. Elis Herawati, M.Pd",
+        "position": "Kepala Sekolah"
+    },
+    {
+        "image": "/images/profil/struktural/wakasek-kurikulum.png",
+        "name": "Mimin Aryani, S.Pd.",
+        "position": "Wakasek Bidang Kurikulum"
+    },
+    {
+        "image": "/images/profil/struktural/wakasek-kesiswaan.png",
+        "name": "Supandi, S.Pd.",
+        "position": "Wakasek Bidang Kesiswaan"
+    },
+    {
+        "image": "/images/profil/struktural/wakasek-industri.png",
+        "name": "Atik Rostika, SST.",
+        "position": "Wakasek Bidang Hubungan Industri"
+    },
+    {
+        "image": "/images/profil/struktural/wakasek-sarana.png",
+        "name": "Idad, S.Pd, M.Pd",
+        "position": "Wakasek Bidang Sarana Prasarana"
+    },
+    {
+        "image": "/images/profil/struktural/penanggung-jawab-perpus.png",
+        "name": "Lia Rulianti Milyarria, S.Pd",
+        "position": "Penanggung Jawab Perpustakaan"
+    },
+    {
+        "image": "/images/profil/struktural/koordinator.png",
+        "name": "Hj. Kokom Komariah, S.Pd",
+        "position": "Koordinator BK"
+    }
+]
