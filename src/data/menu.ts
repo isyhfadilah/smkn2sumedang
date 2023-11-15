@@ -12,8 +12,8 @@ export const menu = [
   //     link: '/jurusan'
   //   },
   {
-    name: 'Extrakurikuler',
-    link: '/extrakurikuler'
+    name: 'Ekstrakurikuler',
+    link: '/ekstrakurikuler'
   },
   {
     name: 'Berita',
