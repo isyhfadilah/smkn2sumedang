@@ -1,0 +1,1 @@
+export { ProfilSejarah } from './sejarah'
