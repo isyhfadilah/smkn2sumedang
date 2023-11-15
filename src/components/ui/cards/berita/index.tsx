@@ -18,7 +18,7 @@ export const CardBerita: React.FC<Props> = ({ tanggal, image, title, detail, lin
         <p className="text-sm font-medium">{tanggal}</p>
         <h1 className="text-lg font-semibold">{title}</h1>
         <p className="py-4">{detail}</p>
-        <Link href={link} className="text-primary font-semibold underline">
+        <Link href={`/berita/${link}`} className="text-primary font-semibold underline">
           Baca Selengkapnya
         </Link>
       </figcaption>
