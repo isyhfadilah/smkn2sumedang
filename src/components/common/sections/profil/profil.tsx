@@ -7,6 +7,7 @@ export const ProfilProfil = () => {
   const backgroundImage = {
     backgroundImage: `url(/images/profil/profil.png)`
   }
+
   return (
     <section className="my-16">
       <Container className="flex flex-col items-center justify-center">
@@ -17,7 +18,7 @@ export const ProfilProfil = () => {
         />
         <div
           style={backgroundImage}
-          className="py-56 bg-cover bg-no-repeat bg-center w-full mt-6 rounded-xl flex justify-center">
+          className="py-46 bg-cover bg-no-repeat bg-center w-full mt-6 rounded-xl flex justify-center">
           <Link href={'/'} className="">
             <div className="bg-dark/50 rounded-full p-2">
               <Image
