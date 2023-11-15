@@ -11,8 +11,8 @@ export const Hero: React.FC<Props> = ({ title, image }) => {
   }
 
   return (
-    <section style={backgroundImage} className="py-36 bg-cover bg-no-repeat bg-center">
-      <h1 className="text-white font-medium text-2xl text-center">{title}</h1>
+    <section style={backgroundImage} className="pt-56 pb-26 bg-cover bg-no-repeat bg-center">
+      <h1 className="text-white font-semibold text-3xl text-center">{title}</h1>
     </section>
   )
 }
