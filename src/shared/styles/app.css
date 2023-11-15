@@ -590,6 +590,7 @@
 .bg-\[\#F8F9FF\]{--un-bg-opacity:1;background-color:rgba(248,249,255,var(--un-bg-opacity));}
 .bg-dark{--un-bg-opacity:1;background-color:rgba(255,107,0,var(--un-bg-opacity));}
 .bg-dark-gray{--un-bg-opacity:1;background-color:rgba(55,52,53,var(--un-bg-opacity));}
+.bg-dark\/50{background-color:rgba(255,107,0,0.5);}
 .bg-primary{--un-bg-opacity:1;background-color:rgba(7,41,77,var(--un-bg-opacity));}
 .bg-secondary{--un-bg-opacity:1;background-color:rgba(255,187,56,var(--un-bg-opacity));}
 .bg-stoke{--un-bg-opacity:1;background-color:rgba(6,9,25,var(--un-bg-opacity));}
@@ -630,6 +631,7 @@
 .py-3{padding-top:0.75rem;padding-bottom:0.75rem;}
 .py-4{padding-top:1rem;padding-bottom:1rem;}
 .py-5{padding-top:1.25rem;padding-bottom:1.25rem;}
+.py-56{padding-top:14rem;padding-bottom:14rem;}
 .py-6{padding-top:1.5rem;padding-bottom:1.5rem;}
 .pb-26{padding-bottom:6.5rem;}
 .pb-6{padding-bottom:1.5rem;}

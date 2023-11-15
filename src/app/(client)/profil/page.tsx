@@ -1,5 +1,5 @@
 import { Hero } from '@/components/common/hero'
-import { ProfilSejarah, ProfilVisi, ProfilStruktural } from '@/components/common/sections/profil/'
+import { ProfilSejarah, ProfilVisi, ProfilStruktural, ProfilProfil } from '@/components/common/sections/profil/'
 
 export default function Profil() {
   return (
@@ -8,6 +8,7 @@ export default function Profil() {
       <ProfilSejarah />
       <ProfilVisi />
       <ProfilStruktural />
+      <ProfilProfil />
     </main>
   )
 }
