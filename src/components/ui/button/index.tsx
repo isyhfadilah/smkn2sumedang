@@ -55,7 +55,7 @@ export const Button: React.FC<ButtonProps> = ({
       classNames.push('text-white bg-secondary')
       break
     case 'dark':
-      classNames.push('text-white bg-gradient-to-r from-[#FF9B00] to-[#ED1C24]')
+      classNames.push('text-white bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] shadow-[#F65714]')
       break
     case 'outline':
       classNames.push('text-white border border-#3A3A3A')

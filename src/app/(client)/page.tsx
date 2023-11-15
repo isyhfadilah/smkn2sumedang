@@ -3,7 +3,8 @@ import {
   LandingProfil,
   LandingBerita,
   LandingPendaftaran,
-  LandingTestimoni
+  LandingTestimoni,
+  LandingMitra
 } from '@/components/common/sections/landing'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <LandingBerita />
       <LandingPendaftaran />
       <LandingTestimoni />
+      <LandingMitra />
     </main>
   )
 }
