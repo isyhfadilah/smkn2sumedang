@@ -1,14 +1,12 @@
 import Container from '../../layouts/Container'
+import { Title } from '@/components/ui/title'
 
 export const ProfilSejarah = () => {
   return (
     <section className="my-16">
       <Container className="flex justify-between items-center">
         <div className="space-y-3">
-          <div className="space-y-2">
-            <p className="text-secondary text-sm font-medium">Sejarah</p>
-            <h1 className="text-2xl font-semibold">SMK Negeri 2 Sumedang</h1>
-          </div>
+          <Title title="Sejarah" subtitle="SMK Negeri 2 Sumedang" />
           <p>
             Merupakan salah satu sekolah kejuruan negeri yang ada di Kabupaten Sumedang. Telah berdiri sejak 10 Agustus 1960
             dalam sebuah upacara sederhana dan khidmat dengan nama SMEA yang berstatus sebagai sekolah swasta.{' '}
