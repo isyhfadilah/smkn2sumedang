@@ -3,7 +3,9 @@
 import Container from '../../layouts/Container'
 import testimoni from '@/data/testimoni.json'
 import { CardTestimoni } from '@/components/ui/cards/testimoni'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
 
 export const LandingTestimoni = () => {
   return (
@@ -12,7 +14,7 @@ export const LandingTestimoni = () => {
         <p className="text-sm text-dark">Testimoni</p>
         <h1 className="text-3xl font-medium mb-6">Karir Alumni</h1>
         <Swiper
-          spaceBetween={50}
+          spaceBetween={20}
           slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}>
