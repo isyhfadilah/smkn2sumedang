@@ -1,0 +1,1 @@
+export { KontakSection } from './kontak'
