@@ -16,7 +16,7 @@ export const LandingHero = () => {
           Konsiste, Amanah.
         </p>
         <div>
-          <Button text={'Contact Us'} href="/" variant="primary" rounded="full" />
+          <Button text={'Contact Us'} href="/kontak" variant="primary" rounded="full" />
         </div>
       </Container>
       <div className="mt-26 bg-white py-6 shadow-md">
