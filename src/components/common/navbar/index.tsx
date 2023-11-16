@@ -18,7 +18,7 @@ export const Navbar = () => {
             {contact.map((item, index) => (
               <li key={index}>
                 <Link href={'/'} className="flex space-x-2">
-                  <Image src={item.icon} alt={item.name} width={24} height={24} />
+                  <Image src={item.icon} alt={item.name} width={18} height={18} />
                   <span>{item.name}</span>
                 </Link>
               </li>
