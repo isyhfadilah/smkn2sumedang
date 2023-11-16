@@ -18,7 +18,7 @@ export const BeritaSection = () => {
 
   return (
     <section className="my-16">
-      <Container>
+      <Container className="flex flex-col justify-between">
         <h1 className="text-2xl font-semibold mb-6">Berita Terbaru</h1>
         <div className="grid grid-cols-2 gap-6 mb-16">
           <div className="space-y-3">
@@ -30,7 +30,7 @@ export const BeritaSection = () => {
               Baca Selengkapnya
             </Link>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between items-end">
             {berita.slice(0, 4).map((item, index) => (
               <Link key={index} href={`/berita/${item.slug}`} className="flex gap-2">
                 <div className="space-y-6 flex flex-col justify-between">
