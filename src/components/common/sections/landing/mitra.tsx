@@ -6,7 +6,7 @@ export const LandingMitra = () => {
   return (
     <section className="my-16">
       <Container className="flex flex-col justify-between items-center">
-        <p className="text-sm text-dark">Media Partner</p>
+        <p className="text-sm text-dark">Mitra</p>
         <h1 className="text-3xl font-medium">Mitra Industri</h1>
         <div className="grid grid-cols-4 gap-16 items-center mt-6 w-full">
           {mitra.map((item, index) => (

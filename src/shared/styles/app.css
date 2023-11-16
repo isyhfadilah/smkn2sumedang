@@ -507,6 +507,7 @@
 .mb-4{margin-bottom:1rem;}
 .mb-6{margin-bottom:1.5rem;}
 .mr-10{margin-right:2.5rem;}
+.mr-16{margin-right:4rem;}
 .mt-16{margin-top:4rem;}
 .mt-2{margin-top:0.5rem;}
 .mt-26{margin-top:6.5rem;}
@@ -524,7 +525,9 @@
 .w-\[160px\]{width:160px;}
 .w-\[85px\]{width:85px;}
 .w-1\/2{width:50%;}
+.w-1\/3{width:33.3333333333%;}
 .w-12{width:3rem;}
+.w-2\/3{width:66.6666666667%;}
 .w-3\/5{width:60%;}
 .w-4{width:1rem;}
 .w-4\/5{width:80%;}
@@ -650,6 +653,7 @@
 .pt-56{padding-top:14rem;}
 .text-center{text-align:center;}
 .text-left{text-align:left;}
+.text-justify{text-align:justify;}
 .font-quicksand{font-family:"Quicksand";}
 .text-2xl{font-size:1.5rem;line-height:2rem;}
 .text-3xl{font-size:1.875rem;line-height:2.25rem;}
@@ -678,7 +682,6 @@
 .text-red-400{--un-text-opacity:1;color:rgba(248,113,113,var(--un-text-opacity));}
 .text-secondary{--un-text-opacity:1;color:rgba(255,187,56,var(--un-text-opacity));}
 .text-slate{--un-text-opacity:1;color:rgba(148,163,184,var(--un-text-opacity));}
-.text-white\/50{color:rgba(255,255,255,0.5);}
 .\!disabled\:text-opacity-10:disabled{--un-text-opacity:0.1 !important;}
 .\!text-opacity-50{--un-text-opacity:0.5 !important;}
 .disabled\:text-opacity-10:disabled{--un-text-opacity:0.1;}
