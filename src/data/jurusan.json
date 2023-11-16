@@ -1,0 +1,31 @@
+[
+  {
+    "label": "Pengertian",
+    "title": "Apa itu jurusan Pengembangan Perangkat Lunak dan Gim?",
+    "detail": "Pengembangan Perangkat Lunak dan Gim (PPLG) adalah salah satu kompetensi keahlian dalam bidang Teknologi Komputer dan Informatika yang secara khusus mempelajari tentang pemrograman komputer mulai dari perancangan, pembuatan, pemeliharaan dan juga proses manajemennya."
+  },
+  {
+    "label": "Karir",
+    "title": "Jenjang Karir Lulusan",
+    "detail": [
+      "Mampu bekerja di berbagai bidang karena sudah dibekali dengan berbagai ilmu dan pengetahuan.",
+      "Dalam melakukan kerja lapangan akan lebih mudah karena saat pembelajaran sudah sering melakukan kerja praktek",
+      "Pekerjaan nya yang relatif mudah dan santai, dapat dikerjakan dimanapun dan kapanpun menggunakan koneksi internet",
+      "Lebih terdepan dari jurusan lainnya dan orang awam diluar sana karena jurusan RPL lebih mengerti dan mendalami berbagai teknologi",
+      "Mampu memasang sebuah PC"
+    ]
+  },
+  {
+    "label": "Pengajar",
+    "title": "Asep Wahyudin, ST., Gr.",
+    "detail": "Ka Kompetensi Keahlian PPLG",
+    "image": "/images/landing/mitra/alfamart.png"
+  },
+  {
+    "label": "Teaching Factory",
+    "title": "Application Development",
+    "subtitle": "Pengembangan Perangkat Lunak dan Gim",
+    "icon": "/icons/",
+    "content": ["User Interface Design", "Web Application", "Metaverse", "Merchandise (Design & Printing)"]
+  }
+]

@@ -47,22 +47,22 @@ export const jelajah = [
 export const jurusan = [
   {
     name: 'Akuntansi',
-    link: '/akuntansi',
+    link: '/jurusan/akl',
     icon: '/icons/akl.svg'
   },
   {
     name: 'Manajemen Perkantoron dan Layanan Bisnis',
-    link: '/manajemen',
+    link: '/jurusan/mplb',
     icon: '/icons/mplb.svg'
   },
   {
     name: 'Pemasaran',
-    link: '/pemasaran',
+    link: '/jurusan/pemasaran',
     icon: '/icons/bdp.svg'
   },
   {
     name: 'Pengembangan Perangkat Lunak dan Gim',
-    link: '/pengembangan',
+    link: '/jurusan/pplg',
     icon: '/icons/pplg.svg'
   }
 ]
