@@ -85,7 +85,7 @@ export const Footer = () => {
         </div>
       </Container>
       <Container>
-        <span className="text-white text-sm">© smkn 2 sumedang | All Rights Reserved</span>
+        <span className="text-white text-sm">© SMKN 2 Sumedang | All Rights Reserved</span>
       </Container>
     </footer>
   )
