@@ -4,7 +4,7 @@ export const theme = (variant: Variant = 'default') => {
   let className = {
     labelColor: 'text-white',
     hintColor: 'text-gray-400',
-    borderColor: 'border-dark border-opacity-0'
+    borderColor: 'border-black border-opacity-0'
   }
   switch (variant) {
     case 'error':

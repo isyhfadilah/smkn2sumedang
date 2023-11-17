@@ -53,7 +53,7 @@ export const Input: React.FC<InputProps> = ({
         <input
           type={type}
           className={cn(
-            'rounded-xl bg-dark focus:outline-none border w-full disabled:border-opacity-10 disabled:text-opacity-10',
+            'rounded-xl bg-white focus:outline-none border w-full disabled:border-opacity-10 disabled:text-opacity-10',
             `placeholder:${theme.hintColor} placeholder:text-opacity-80`,
             theme.borderColor,
             sizes,
