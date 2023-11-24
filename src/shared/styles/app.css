@@ -566,6 +566,7 @@
 .space-y-2>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(0.5rem * var(--un-space-y-reverse));}
 .space-y-3>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(0.75rem * var(--un-space-y-reverse));}
 .space-y-4>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1rem * var(--un-space-y-reverse));}
+.space-y-5>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1.25rem * var(--un-space-y-reverse));}
 .space-y-6>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1.5rem * var(--un-space-y-reverse));}
 .divide-x>:not([hidden])~:not([hidden]){--un-divide-x-reverse:0;border-left-width:calc(1px * calc(1 - var(--un-divide-x-reverse)));border-right-width:calc(1px * var(--un-divide-x-reverse));}
 .divide-black>:not([hidden])~:not([hidden]){--un-divide-opacity:1;border-color:rgba(0,0,0,var(--un-divide-opacity));}
@@ -601,7 +602,6 @@
 .\!bg-dark-gray,
 .hover\:\!bg-dark-gray:hover{--un-bg-opacity:1 !important;background-color:rgba(55,52,53,var(--un-bg-opacity)) !important;}
 .bg-\[\#F8F9FF\]{--un-bg-opacity:1;background-color:rgba(248,249,255,var(--un-bg-opacity));}
-.bg-dark{--un-bg-opacity:1;background-color:rgba(255,107,0,var(--un-bg-opacity));}
 .bg-dark-gray{--un-bg-opacity:1;background-color:rgba(55,52,53,var(--un-bg-opacity));}
 .bg-dark\/50{background-color:rgba(255,107,0,0.5);}
 .bg-primary{--un-bg-opacity:1;background-color:rgba(7,41,77,var(--un-bg-opacity));}

@@ -40,7 +40,7 @@ export const TextArea: React.FC<TextAreaProps> = ({
         <textarea
           rows={3}
           className={cn(
-            'px-4 py-3 rounded-xl bg-transparent focus:outline-none border w-full font-light disabled:border-opacity-10 disabled:text-opacity-10 bg-dark',
+            'px-4 py-3 rounded-xl bg-transparent focus:outline-none border w-full font-light disabled:border-opacity-10 disabled:text-opacity-10 bg-white',
             `placeholder:${theme.hintColor} placeholder:text-opacity-80`,
             theme.borderColor,
             sizes,
