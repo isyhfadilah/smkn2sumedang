@@ -73,7 +73,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="text-white">
-            <h1 className="text-lg capitalize mb-4 font-semibold">halaman umum</h1>
+            <h1 className="text-lg capitalize mb-4 font-semibold">kompetensi keahlian</h1>
             <ul className="text-sm space-y-2">
               {jurusan.map((item, index) => (
                 <li key={index}>
