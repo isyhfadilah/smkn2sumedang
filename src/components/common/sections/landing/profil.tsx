@@ -3,14 +3,14 @@ import { CardProfil } from '@/components/ui/cards/profil'
 import Button from '@/components/ui/button'
 import { profil, data } from '@/data/menu'
 import { CardData } from '@/components/ui/cards/data'
+import { Title } from '@/components/ui/title'
 
 export const LandingProfil = () => {
   return (
     <section className="my-16">
       <Container className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="lg:border-r border-black space-y-4 w-full lg:pr-10">
-          <p className="text-sm text-dark">Profil Singkat</p>
-          <h1 className="text-3xl font-medium">Terus Tumbuh dan Berkembang</h1>
+          <Title title="Profil Singkat" subtitle="Terus Tumbuh dan Berkembang" />
           <p className="text-black/50">
             Sejak didirikan pada tanggal 10 Agustus 1960, SMK Negeri 2 Sumedang secara konsisten serta kontinyu terus
             mengembangkan sistem manajemen serta pembelajaran sehingga terus tumbuh menjadi sekolah yang kompetitif sesuai
