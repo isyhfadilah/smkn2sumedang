@@ -553,6 +553,7 @@
 @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 .animate-spin{animation:spin 1s linear infinite;}
 .cursor-pointer{cursor:pointer;}
+.resize{resize:both;}
 .items-end{align-items:flex-end;}
 .items-center{align-items:center;}
 .justify-end{justify-content:flex-end;}
