@@ -7,8 +7,8 @@ import { CardData } from '@/components/ui/cards/data'
 export const LandingProfil = () => {
   return (
     <section className="my-16">
-      <Container className="grid grid-cols-2 items-center">
-        <div className="border-r border-black space-y-4 w-full pr-10">
+      <Container className="grid grid-cols-1 lg:grid-cols-2 items-center">
+        <div className="lg:border-r border-black space-y-4 w-full lg:pr-10">
           <p className="text-sm text-dark">Profil Singkat</p>
           <h1 className="text-3xl font-medium">Terus Tumbuh dan Berkembang</h1>
           <p className="text-black/50">
@@ -20,7 +20,7 @@ export const LandingProfil = () => {
           <Button text={'Selengkapnya'} href="/profil" variant="primary" rounded="full" />
         </div>
 
-        <div className="grid grid-cols-2 gap-6 pl-10">
+        <div className="grid grid-cols-2 gap-6 lg:pl-10 mt-10 lg:mt-0">
           {profil.map((item, index) => (
             <CardProfil key={index} icon={item.icon} title={item.title} description={item.description} />
           ))}
