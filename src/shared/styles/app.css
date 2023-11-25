@@ -746,4 +746,6 @@
 .lg\:border-r{border-right-width:1px;}
 .lg\:pl-10{padding-left:2.5rem;}
 .lg\:pr-10{padding-right:2.5rem;}
+.lg\:text-2xl{font-size:1.5rem;line-height:2rem;}
+.lg\:text-lg{font-size:1.125rem;line-height:1.75rem;}
 }
