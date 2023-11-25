@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="bg-pink">
+    <main>
       <LandingHero />
       <LandingProfil />
       <LandingBerita />
