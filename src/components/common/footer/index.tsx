@@ -31,8 +31,8 @@ const social = [
 export const Footer = () => {
   return (
     <footer className="w-full bg-stoke py-10">
-      <Container className="border-b border-dark pb-6 flex mb-6">
-        <div className="w-3/5 mr-10 space-y-6">
+      <Container className="border-b border-dark pb-6 flex flex-wrap-reverse lg:flex-nowrap mb-6">
+        <div className="w-full lg:w-3/5 mr-10 space-y-6">
           <div className="flex items-center space-x-4">
             <Image src={'/icons/logo-smea.svg'} alt={'smkn2sumedang'} height={56} width={44}></Image>
             <span className="text-xl text-white font-bold">SMKN 2 Sumedang</span>
@@ -51,7 +51,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 space-x-1">
+        <div className="grid grid-cols-2 md:grid-cols-3 space-x-1 mb-10 lg:mb-0">
           <div className="text-white">
             <h1 className="text-lg capitalize mb-4 font-semibold">jelajah</h1>
             <ul className="text-sm space-y-2">
