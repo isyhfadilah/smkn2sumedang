@@ -18,7 +18,7 @@ export const EkstrakurikulerSection = () => {
     <section className="my-16">
       <Container className="flex justify-center flex-col items-center">
         <Title title="Ekstrakurikuler" subtitle="Tingkatkan Berbagai Minat dan Bakat" className="text-center" />
-        <div className="grid grid-cols-3 gap-26 my-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-26 my-16">
           {eksttrakurikuler.slice(0, visibleCard).map((item, index) => (
             <CardEkstra key={index} image={item.image} title={item.title} description={item.description} />
           ))}
