@@ -14,7 +14,7 @@ export const ProfilProfil = () => {
         <Title
           title="Profil"
           subtitle="Raihlah Masa Depan Gemilang bersama SMKN 2 Sumedang"
-          className="w-1/2 flex justify-center items-center flex-col text-center"
+          className="lg:w-1/2 flex justify-center items-center flex-col text-center"
         />
         <div
           style={backgroundImage}
