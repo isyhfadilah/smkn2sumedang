@@ -4,14 +4,14 @@ import Container from '../../layouts/Container'
 export const ProfilVisi = () => {
   return (
     <section className="w-full py-16 bg-[#F8F9FF]">
-      <Container className="flex justify-between space-x-10">
+      <Container className="flex flex-wrap lg:flex-nowrap justify-between lg:space-x-10">
         <div>
           <Title title="Tentang Sekolah" subtitle="Visi dan Misi SMKN 2 Sumedang" />
           <p className="text-gray mt-2">
             Inti identitas sekolah, yang tercermin dalam Visi Misi yang dipegang teguh oleh seluruh stakeholder sekolah.
           </p>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-3 mt-10 lg:mt-0">
           <div className="bg-white rounded-lg p-6 space-y-3">
             <h1 className="text-2xl font-medium">Visi</h1>
             <p>

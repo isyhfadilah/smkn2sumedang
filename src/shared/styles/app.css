@@ -530,14 +530,12 @@
 .max-h-screen{max-height:100vh;}
 .w-\[160px\]{width:160px;}
 .w-\[85px\]{width:85px;}
-.w-1\/2{width:50%;}
 .w-1\/3{width:33.3333333333%;}
 .w-12{width:3rem;}
 .w-2\/3{width:66.6666666667%;}
 .w-2\/5{width:40%;}
 .w-3\/5{width:60%;}
 .w-4{width:1rem;}
-.w-4\/5{width:80%;}
 .w-6{width:1.5rem;}
 .w-full{width:100%;}
 .flex{display:flex;}
@@ -564,7 +562,6 @@
 .gap-26{grid-gap:6.5rem;gap:6.5rem;}
 .gap-6{grid-gap:1.5rem;gap:1.5rem;}
 .space-x-1>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(0.25rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(0.25rem * var(--un-space-x-reverse));}
-.space-x-10>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2.5rem * var(--un-space-x-reverse));}
 .space-x-2>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(0.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(0.5rem * var(--un-space-x-reverse));}
 .space-x-3>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(0.75rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(0.75rem * var(--un-space-x-reverse));}
 .space-x-4>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(1rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(1rem * var(--un-space-x-reverse));}
@@ -657,7 +654,7 @@
 .py-5{padding-top:1.25rem;padding-bottom:1.25rem;}
 .py-56{padding-top:14rem;padding-bottom:14rem;}
 .py-6{padding-top:1.5rem;padding-bottom:1.5rem;}
-.pb-26{padding-bottom:6.5rem;}
+.pb-36{padding-bottom:9rem;}
 .pb-46{padding-bottom:11.5rem;}
 .pb-6{padding-bottom:1.5rem;}
 .pl-11{padding-left:2.75rem;}
@@ -745,11 +742,15 @@
 .lg\:hidden{display:none;}
 .lg\:w-1\/2{width:50%;}
 .lg\:w-3\/5{width:60%;}
+.lg\:w-4\/5{width:80%;}
 .lg\:flex-nowrap{flex-wrap:nowrap;}
+.lg\:space-x-10>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2.5rem * var(--un-space-x-reverse));}
 .lg\:border-r{border-right-width:1px;}
+.lg\:pb-26{padding-bottom:6.5rem;}
 .lg\:pl-10{padding-left:2.5rem;}
 .lg\:pr-10{padding-right:2.5rem;}
 .lg\:text-2xl{font-size:1.5rem;line-height:2rem;}
+.lg\:text-3xl{font-size:1.875rem;line-height:2.25rem;}
 .lg\:text-4xl{font-size:2.25rem;line-height:2.5rem;}
 .lg\:text-lg{font-size:1.125rem;line-height:1.75rem;}
 }

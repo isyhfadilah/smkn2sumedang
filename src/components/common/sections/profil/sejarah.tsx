@@ -5,9 +5,9 @@ import { Title } from '@/components/ui/title'
 export const ProfilSejarah = () => {
   return (
     <section className="my-16">
-      <Container className="flex justify-between items-center space-x-10">
+      <Container className="w-full flex flex-wrap-reverse lg:flex-nowrap justify-between items-center lg:space-x-10">
         <Image src="/images/profil/sejarah.png" alt="sejarah-smkn2sumedang" height={480} width={480} />
-        <div className="space-y-3 w-4/5">
+        <div className="space-y-3 w-full lg:w-4/5 mb-10 lg:mb-0">
           <Title title="Sejarah" subtitle="SMK Negeri 2 Sumedang" />
           <p>
             Merupakan salah satu sekolah kejuruan negeri yang ada di Kabupaten Sumedang. Telah berdiri sejak 10 Agustus 1960
