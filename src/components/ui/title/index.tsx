@@ -14,7 +14,7 @@ export const Title: React.FC<Props> = ({ title, subtitle, className }) => {
   return (
     <div className={combinedClasses}>
       <p className="text-sm text-secondary font-medium">{title}</p>
-      <h1 className="text-2xl font-semibold">{subtitle}</h1>
+      <h1 className="text-3xl font-semibold">{subtitle}</h1>
     </div>
   )
 }
