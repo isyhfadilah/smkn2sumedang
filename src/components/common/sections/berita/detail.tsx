@@ -31,8 +31,8 @@ export const BeritaDetail = ({ slug }: { slug: string }) => {
       <Hero image="/images/landing/hero.png" title={detailData.title} />
       <Container className="py-16">
         <h1 className="font-bold text-3xl text-center mb-10">Berita</h1>
-        <div className="flex justify-between">
-          <div className="space-y-6 w-2/3 mr-16">
+        <div className="flex flex-wrap md:flex-nowrap justify-between">
+          <div className="space-y-6 md:w-2/3 md:mr-16">
             <Image
               src={detailData.image}
               alt={detailData.title}
@@ -43,7 +43,7 @@ export const BeritaDetail = ({ slug }: { slug: string }) => {
             <h1 className="font-semibold text-2xl">{detailData.title}</h1>
             <p className="text-justify">{detailData.detail}</p>
           </div>
-          <div className="space-y-3 w-1/3">
+          <div className="space-y-3 md:w-1/3 mt-10 md:mt-0">
             {berita.slice(3).map((item, index) => (
               <CardBerita
                 key={index}
