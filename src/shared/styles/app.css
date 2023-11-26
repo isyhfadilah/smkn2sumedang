@@ -657,7 +657,7 @@
 .py-5{padding-top:1.25rem;padding-bottom:1.25rem;}
 .py-56{padding-top:14rem;padding-bottom:14rem;}
 .py-6{padding-top:1.5rem;padding-bottom:1.5rem;}
-.pb-26{padding-bottom:6.5rem;}
+.pb-36{padding-bottom:9rem;}
 .pb-46{padding-bottom:11.5rem;}
 .pb-6{padding-bottom:1.5rem;}
 .pl-11{padding-left:2.75rem;}
@@ -747,9 +747,11 @@
 .lg\:w-3\/5{width:60%;}
 .lg\:flex-nowrap{flex-wrap:nowrap;}
 .lg\:border-r{border-right-width:1px;}
+.lg\:pb-26{padding-bottom:6.5rem;}
 .lg\:pl-10{padding-left:2.5rem;}
 .lg\:pr-10{padding-right:2.5rem;}
 .lg\:text-2xl{font-size:1.5rem;line-height:2rem;}
+.lg\:text-3xl{font-size:1.875rem;line-height:2.25rem;}
 .lg\:text-4xl{font-size:2.25rem;line-height:2.5rem;}
 .lg\:text-lg{font-size:1.125rem;line-height:1.75rem;}
 }
