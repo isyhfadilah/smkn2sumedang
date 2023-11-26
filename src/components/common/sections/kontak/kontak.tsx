@@ -26,8 +26,10 @@ export const KontakSection = () => {
           </div>
         </Container>
       </Container>
-      <div className="hidden bg-primary w-2/5 py-56 flex items-center justify-center">
-        <Image src={'/icons/logo-smea.svg'} alt="logo-smea" width={200} height={200} />
+      <div className="div hidden lg:block">
+        <div className="bg-primary w-2/5 py-56 flex items-center justify-center">
+          <Image src={'/icons/logo-smea.svg'} alt="logo-smea" width={200} height={200} />
+        </div>
       </div>
     </section>
   )
