@@ -552,7 +552,6 @@
 .animate-spin{animation:spin 1s linear infinite;}
 .cursor-pointer{cursor:pointer;}
 .resize{resize:both;}
-.items-end{align-items:flex-end;}
 .items-center{align-items:center;}
 .justify-end{justify-content:flex-end;}
 .justify-center{justify-content:center;}
@@ -744,6 +743,7 @@
 .lg\:w-3\/5{width:60%;}
 .lg\:w-4\/5{width:80%;}
 .lg\:flex-nowrap{flex-wrap:nowrap;}
+.lg\:items-end{align-items:flex-end;}
 .lg\:space-x-10>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2.5rem * var(--un-space-x-reverse));}
 .lg\:border-r{border-right-width:1px;}
 .lg\:pb-26{padding-bottom:6.5rem;}

@@ -20,7 +20,7 @@ export const BeritaSection = () => {
     <section className="my-16">
       <Container className="flex flex-col justify-between">
         <h1 className="text-2xl font-semibold mb-6">Berita Terbaru</h1>
-        <div className="grid grid-cols-2 gap-6 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-16">
           <div className="space-y-3">
             <Image src={berita[0].image} alt={berita[0].title} width={600} height={400} />
             <p className="text-sm">{berita[0].tanggal}</p>
@@ -30,9 +30,9 @@ export const BeritaSection = () => {
               Baca Selengkapnya
             </Link>
           </div>
-          <div className="flex flex-col justify-between items-end">
+          <div className="flex flex-col justify-between items-between lg:items-end">
             {berita.slice(0, 4).map((item, index) => (
-              <Link key={index} href={`/berita/${item.slug}`} className="flex gap-2">
+              <Link key={index} href={`/berita/${item.slug}`} className="flex gap-2 space-y-2">
                 <div className="space-y-6 flex flex-col justify-between">
                   <h1>{item.title}</h1>
                   <p className="text-sm text-black/50">{item.tanggal}</p>
@@ -44,7 +44,7 @@ export const BeritaSection = () => {
         </div>
       </Container>
       <Container className="flex flex-col justify-center items-center space-y-3">
-        <div className="grid grid-cols-3 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
           {berita.slice(0, visibleCard).map((item, index) => (
             <CardBerita
               key={index}
