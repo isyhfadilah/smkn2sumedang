@@ -537,7 +537,6 @@
 .w-2\/5{width:40%;}
 .w-3\/5{width:60%;}
 .w-4{width:1rem;}
-.w-4\/5{width:80%;}
 .w-6{width:1.5rem;}
 .w-full{width:100%;}
 .flex{display:flex;}
@@ -745,7 +744,9 @@
 .lg\:hidden{display:none;}
 .lg\:w-1\/2{width:50%;}
 .lg\:w-3\/5{width:60%;}
+.lg\:w-4\/5{width:80%;}
 .lg\:flex-nowrap{flex-wrap:nowrap;}
+.lg\:space-x-10>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2.5rem * var(--un-space-x-reverse));}
 .lg\:border-r{border-right-width:1px;}
 .lg\:pb-26{padding-bottom:6.5rem;}
 .lg\:pl-10{padding-left:2.5rem;}
