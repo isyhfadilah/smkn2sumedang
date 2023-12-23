@@ -8,8 +8,8 @@ import Button from '@/components/ui/button'
 
 export const KontakSection = () => {
   return (
-    <section className="flex w-full">
-      <Container className="w-3/5 py-36">
+    <section className="flex">
+      <Container className="lg:w-3/5 py-36">
         <Container>
           <Title title="Kontak" subtitle="Hubungi Kami" className="text-center" />
           <form action="" className="space-y-5">
@@ -26,10 +26,8 @@ export const KontakSection = () => {
           </div>
         </Container>
       </Container>
-      <div className="div hidden lg:block">
-        <div className="bg-primary w-2/5 py-56 flex items-center justify-center">
-          <Image src={'/icons/logo-smea.svg'} alt="logo-smea" width={200} height={200} />
-        </div>
+      <div className="hidden  bg-primary lg:w-2/5 py-56 flex items-center justify-center">
+        <Image src={'/icons/logo-smea.svg'} alt="logo-smea" width={200} height={200} />
       </div>
     </section>
   )
