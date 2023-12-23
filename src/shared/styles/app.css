@@ -530,8 +530,6 @@
 .w-\[160px\]{width:160px;}
 .w-\[85px\]{width:85px;}
 .w-12{width:3rem;}
-.w-2\/5{width:40%;}
-.w-3\/5{width:60%;}
 .w-4{width:1rem;}
 .w-6{width:1.5rem;}
 .w-full{width:100%;}
@@ -559,9 +557,10 @@
 .gap-6{grid-gap:1.5rem;gap:1.5rem;}
 .space-x-1>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(0.25rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(0.25rem * var(--un-space-x-reverse));}
 .space-x-2>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(0.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(0.5rem * var(--un-space-x-reverse));}
+.space-x-2xl>:not([hidden])~:not([hidden]),
+.space-x-6>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(1.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(1.5rem * var(--un-space-x-reverse));}
 .space-x-3>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(0.75rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(0.75rem * var(--un-space-x-reverse));}
 .space-x-4>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(1rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(1rem * var(--un-space-x-reverse));}
-.space-x-6>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(1.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(1.5rem * var(--un-space-x-reverse));}
 .space-x-8>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2rem * var(--un-space-x-reverse));}
 .space-y-1>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(0.25rem * var(--un-space-y-reverse));}
 .space-y-10>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(2.5rem * var(--un-space-y-reverse));}
@@ -694,6 +693,7 @@
 .disabled\:text-opacity-10:disabled{--un-text-opacity:0.1;}
 .placeholder\:text-opacity-80::placeholder{--un-text-opacity:0.8;}
 .underline{text-decoration-line:underline;}
+.tab{-moz-tab-size:4;-o-tab-size:4;tab-size:4;}
 .opacity-0{opacity:0;}
 .opacity-100{opacity:1;}
 .opacity-25{opacity:0.25;}
@@ -742,6 +742,7 @@
 .lg\:block{display:block;}
 .lg\:hidden{display:none;}
 .lg\:w-1\/2{width:50%;}
+.lg\:w-2\/5{width:40%;}
 .lg\:w-3\/5{width:60%;}
 .lg\:w-4\/5{width:80%;}
 .lg\:flex-nowrap{flex-wrap:nowrap;}
