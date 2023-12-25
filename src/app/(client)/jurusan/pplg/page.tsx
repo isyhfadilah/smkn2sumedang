@@ -1,6 +1,7 @@
 'use client'
 
 import { Tabbar, TabContent } from '@/components/ui/tab'
+import { CardKurikulum } from '@/components/ui/cards/kurikulum'
 import jurusan from '@/data/jurusan.json'
 import Container from '@/components/common/layouts/Container'
 import { useState } from 'react'
@@ -10,14 +11,16 @@ export default function Pplg() {
 
   return (
     <main>
-      <Container className="py-56">
-        <Tabbar tabs={jurusan} activeIndex={activeIndex} onTabClick={(index) => setActiveIndex(index)} />
-        <TabContent
-          title={jurusan[activeIndex].title}
-          description={jurusan[activeIndex]?.detail}
-          subtitle={jurusan[activeIndex]?.subtitle}
-          pointer={jurusan[activeIndex]?.pointer}
-        />
+      <Container className="py-56 lg:flex">
+        <div className="mr-10 w-full">
+          <Tabbar tabs={jurusan} activeIndex={activeIndex} onTabClick={(index) => setActiveIndex(index)} />
+          <TabContent
+            title={jurusan[activeIndex].title}
+            description={jurusan[activeIndex]?.detail}
+            subtitle={jurusan[activeIndex]?.subtitle}
+          />
+        </div>
+        <CardKurikulum />
       </Container>
     </main>
   )
