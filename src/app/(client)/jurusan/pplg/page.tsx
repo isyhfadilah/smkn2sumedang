@@ -1,45 +1,31 @@
 'use client'
 
-import { Tabbar } from '@/components/ui/tab'
+import { Tabbar, TabContent } from '@/components/ui/tab'
+import { CardKurikulum } from '@/components/ui/cards/kurikulum'
 import jurusan from '@/data/jurusan.json'
 import Container from '@/components/common/layouts/Container'
 import { useState } from 'react'
 
 export default function Pplg() {
-  const [contentVisible, setContentVisible] = useState(Array(jurusan.length).fill(false))
-
-  const handleClick = (index: number) => {
-    // Create a copy of the visibility array
-    const newVisibility = [...contentVisible]
-
-    // Toggle the visibility of the clicked tab
-    newVisibility[index] = !newVisibility[index]
-
-    // Set all other tabs to false
-    for (let i = 0; i < newVisibility.length; i++) {
-      if (i !== index) {
-        newVisibility[i] = false
-      }
-    }
-
-    // Update the state
-    setContentVisible(newVisibility)
-  }
+  const [activeIndex, setActiveIndex] = useState(0)
 
   return (
     <main>
-      <Container className="flex space-x-2xl">
-        {jurusan.map((item, index) => (
-          <div key={index}>
-            <Tabbar onclick={() => handleClick(index)} tabs={item.label} />
-          </div>
-        ))}
-      </Container>
-
-      <Container>
-        {jurusan.map((item, index) => (
-          <div key={index}>{contentVisible[index] && <div key={index}>{item.title}</div>}</div>
-        ))}
+      <Container className="py-56 lg:flex">
+        <div className="mr-10 w-full">
+          <Tabbar tabs={jurusan} activeIndex={activeIndex} onTabClick={(index) => setActiveIndex(index)} />
+          <TabContent
+            title={jurusan[activeIndex].title}
+            description={jurusan[activeIndex]?.detail}
+            subtitle={jurusan[activeIndex]?.subtitle}
+            pointer={jurusan[activeIndex]?.pointer}
+            icon={jurusan[activeIndex]?.icon}
+            image={jurusan[activeIndex]?.image}
+            name={jurusan[activeIndex]?.name}
+            position={jurusan[activeIndex]?.position}
+          />
+        </div>
+        <CardKurikulum />
       </Container>
     </main>
   )

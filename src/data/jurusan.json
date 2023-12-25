@@ -7,7 +7,7 @@
   {
     "label": "Karir",
     "title": "Jenjang Karir Lulusan",
-    "detail": [
+    "pointer": [
       "Mampu bekerja di berbagai bidang karena sudah dibekali dengan berbagai ilmu dan pengetahuan.",
       "Dalam melakukan kerja lapangan akan lebih mudah karena saat pembelajaran sudah sering melakukan kerja praktek",
       "Pekerjaan nya yang relatif mudah dan santai, dapat dikerjakan dimanapun dan kapanpun menggunakan koneksi internet",
@@ -17,15 +17,15 @@
   },
   {
     "label": "Pengajar",
-    "title": "Asep Wahyudin, ST., Gr.",
-    "detail": "Ka Kompetensi Keahlian PPLG",
-    "image": "/images/landing/mitra/alfamart.png"
+    "name": "Asep Wahyudin, ST., Gr.",
+    "position": "Ka Kompetensi Keahlian PPLG",
+    "image": "/images/profil/struktural/ka-pplg.png"
   },
   {
     "label": "Teaching Factory",
     "title": "Application Development",
     "subtitle": "Pengembangan Perangkat Lunak dan Gim",
-    "icon": "/icons/",
-    "content": ["User Interface Design", "Web Application", "Metaverse", "Merchandise (Design & Printing)"]
+    "icon": "/images/landing/mitra/makerindo-wrap.png",
+    "pointer": ["User Interface Design", "Web Application", "Metaverse", "Merchandise (Design & Printing)"]
   }
 ]
