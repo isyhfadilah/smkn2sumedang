@@ -26,6 +26,6 @@
     "title": "Application Development",
     "subtitle": "Pengembangan Perangkat Lunak dan Gim",
     "icon": "/icons/",
-    "content": ["User Interface Design", "Web Application", "Metaverse", "Merchandise (Design & Printing)"]
+    "pointer": ["User Interface Design", "Web Application", "Metaverse", "Merchandise (Design & Printing)"]
   }
 ]
