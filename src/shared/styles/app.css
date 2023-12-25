@@ -693,7 +693,6 @@
 .disabled\:text-opacity-10:disabled{--un-text-opacity:0.1;}
 .placeholder\:text-opacity-80::placeholder{--un-text-opacity:0.8;}
 .underline{text-decoration-line:underline;}
-.tab{-moz-tab-size:4;-o-tab-size:4;tab-size:4;}
 .opacity-0{opacity:0;}
 .opacity-100{opacity:1;}
 .opacity-25{opacity:0.25;}

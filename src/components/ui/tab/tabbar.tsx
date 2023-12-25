@@ -1,20 +1,24 @@
-import Link from 'next/link'
-
-interface Props {
-  tabs: string
-  onclick: any
+interface Tab {
+  label: string
 }
 
-export const Tabbar = ({ tabs, onclick }: Props) => {
+interface Props {
+  tabs: Tab[]
+  activeIndex: number
+  onTabClick: (index: number) => void
+}
+
+export const Tabbar = ({ tabs, activeIndex, onTabClick }: Props) => {
   return (
-    <nav className="py-56">
-      <ul>
-        <li>
-          <Link href="#" onClick={onclick} className="text-lg">
-            {tabs}
-          </Link>
-        </li>
-      </ul>
+    <nav className="flex space-x-2xl mb-10">
+      {tabs.map((tab, index) => (
+        <div
+          key={index}
+          className={`text-lg ${activeIndex === index ? 'font-bold' : 'font-light'}`}
+          onClick={() => onTabClick(index)}>
+          <p className="text-primary cursor-pointer">{tab.label}</p>
+        </div>
+      ))}
     </nav>
   )
 }
