@@ -17,9 +17,9 @@
   },
   {
     "label": "Pengajar",
-    "title": "Asep Wahyudin, ST., Gr.",
-    "detail": "Ka Kompetensi Keahlian PPLG",
-    "image": "/images/landing/mitra/alfamart.png"
+    "name": "Asep Wahyudin, ST., Gr.",
+    "position": "Ka Kompetensi Keahlian PPLG",
+    "image": "/images/profil/struktural/ka-pplg.png"
   },
   {
     "label": "Teaching Factory",

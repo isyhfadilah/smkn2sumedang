@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { CardStruktural } from '../cards/struktural'
 
 interface Props {
   title?: string
@@ -7,9 +8,12 @@ interface Props {
   description?: string
   pointer?: string[] | undefined
   icon?: string
+  image?: string
+  name?: string
+  position?: string
 }
 
-export const TabContent = ({ title, description, subtitle, pointer, icon }: Props) => {
+export const TabContent = ({ title, description, subtitle, pointer, icon, image, name, position }: Props) => {
   return (
     <div>
       <div className="flex items-center">
@@ -28,6 +32,8 @@ export const TabContent = ({ title, description, subtitle, pointer, icon }: Prop
           </li>
         ))}
       </ul>
+
+      {image && name && position && <CardStruktural image={image} name={name} position={position} />}
     </div>
   )
 }

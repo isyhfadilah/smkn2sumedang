@@ -20,6 +20,9 @@ export default function Pplg() {
             subtitle={jurusan[activeIndex]?.subtitle}
             pointer={jurusan[activeIndex]?.pointer}
             icon={jurusan[activeIndex]?.icon}
+            image={jurusan[activeIndex]?.image}
+            name={jurusan[activeIndex]?.name}
+            position={jurusan[activeIndex]?.position}
           />
         </div>
         <CardKurikulum />
