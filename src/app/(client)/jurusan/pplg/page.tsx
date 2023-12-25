@@ -12,7 +12,12 @@ export default function Pplg() {
     <main>
       <Container className="py-56">
         <Tabbar tabs={jurusan} activeIndex={activeIndex} onTabClick={(index) => setActiveIndex(index)} />
-        <TabContent description={jurusan[activeIndex].title} />
+        <TabContent
+          title={jurusan[activeIndex].title}
+          description={jurusan[activeIndex]?.detail}
+          subtitle={jurusan[activeIndex]?.subtitle}
+          pointer={jurusan[activeIndex]?.pointer}
+        />
       </Container>
     </main>
   )
