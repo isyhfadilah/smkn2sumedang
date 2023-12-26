@@ -1,0 +1,40 @@
+[
+  {
+    "label": "Pengertian",
+    "title": "Apa itu jurusan Manajemen Perkantoran dan Layanan Bisnis?",
+    "detail": "Manajemen Perkantoran dan Layanan Bisnis (MPLB) adalah salah satu kompetensi keahlian di SMKN 2 Sumedang yang mempelajari pengelolaan bisnis dengan fokus pada manajemen perkantoran dan manajemen logistik, kewirausahaan serta keterampilan dan sikap dalam menyelesaikan pekerjaan-pekerjaan kantor."
+  },
+  {
+    "label": "Karir",
+    "title": "Jenjang Karir Lulusan",
+    "pointer": [
+      "Resepsionis",
+      "Sekretaris Junior",
+      "Staff Administrasi",
+      "Asisten Arsiparis",
+      "Customer Service",
+      "Event Organizer",
+      "Wirausaha"
+    ]
+  },
+  {
+    "label": "Pengajar",
+    "name": "Ani Rena Muljani, M.Pd",
+    "position": "Ka Kompetensi Keahlian MPLB",
+    "image": "/images/profil/struktural/ka-mplb.png"
+  },
+  {
+    "label": "Teaching Factory",
+    "title": "Agen Pos",
+    "subtitle": "Manajemen Perkantoran dan Layanan Bisnis",
+    "icon": "/images/landing/mitra/postindonesia-wrap.png",
+    "pointer": [
+      "Jasa Keuangan", 
+      "Jasa Ekspedisi",
+      "Alat Tulis Kantor",
+      "Cetak, Scan, Jilid, dan Laminating",
+      "Setor dan Tarik Tunai",
+      "Pembayaran Pajak"
+    ]
+  }
+]
