@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Pengertian",
+    "title": "Apa itu jurusan Akuntansi?",
+    "detail": "Jurusan akuntansi adalah belajar cara memelihara keuangan. Ini mempersiapkan siswa untuk menjadi akuntan dengan mengajar mereka tentang prinsip-prinsip akuntansi seperti audit, pelaporan, penganggaran dan peraturan pajak. Akuntansi adalah sarana yang digunakan perusahaan atau organisasi untuk menyampaikan informasi keuangannya."
+  },
+  {
+    "label": "Karir",
+    "title": "Jenjang Karir Lulusan",
+    "pointer": [
+      "Staf Akuntansi/Keuangan Perusahaan",
+      "Staf Perpajakan",
+      "Kasir",
+      "Teller",
+      "Staf Administrasi",
+      "Customer Service",
+      "Wirausaha"
+    ]
+  },
+  {
+    "label": "Pengajar",
+    "name": "Dra. Siti Aan Rohanah",
+    "position": "Ka Kompetensi Keahlian Akuntansi",
+    "image": "/images/profil/struktural/ka-akl.png"
+  },
+  {
+    "label": "Teaching Factory",
+    "title": "Bank Mini Bina Mandiri",
+    "subtitle": "Akuntansi dan Keuangan Lembaga",
+    "icon": "/images/landing/mitra/bankbjb.png",
+    "pointer": [
+      "Simpanan Tabungan", 
+      "Mini Banking Agen BJB BISA (buka rekening, batal rekening, setoran tunai, tarik tunai, informasi saldo, transfer, ubah PIN/aktivasi kartu ATM BJB)",
+      "Transaksi Pembelian dan Pembayaran Agen BJB BISA (Pembelian pulsa prabayar, paket data internet, voucher game, top-up e-wallet, pembayaran pascabayar, internet, BPJS Kesehatan, TV Berlangganan, PAM/PDAM, top-up e-money (BJB-Mandiri), pembayaran MPN, multifinance, pajak PBB"
+    ]
+  }
+]
