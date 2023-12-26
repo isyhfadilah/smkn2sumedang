@@ -2,7 +2,7 @@
 
 import { Tabbar, TabContent } from '@/components/ui/tab'
 import { CardKurikulum } from '@/components/ui/cards/kurikulum'
-import jurusan from '@/data/jurusan.json'
+import jurusan from '@/data/pplg.json'
 import Container from '@/components/common/layouts/Container'
 import { useState } from 'react'
 import { HeroJurusan } from '@/components/common/sections/hero'
