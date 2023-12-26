@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Pengertian",
+    "title": "Apa itu jurusan Pemasaran?",
+    "detail": "Pemasaran adalah kompetensi keahlian yang mempelajari dasar-dasar kemampuan dan keilmuan menjadi seorang maarketing, baik secara konvensional maupun melaui media daring (online/internet). Selain itu juga, mempelajari stratei pasar, kewirausahaan dan membuka peluang bisnis."
+  },
+  {
+    "label": "Karir",
+    "title": "Jenjang Karir Lulusan",
+    "pointer": [
+      "Sosial Media Marketing",
+      "Tenaga Pemasaran",
+      "Pramuniaga",
+      "Pengelola Gudang",
+      "Kasir",
+      "Bisnis Retail",
+      "Wirausaha"
+    ]
+  },
+  {
+    "label": "Pengajar",
+    "name": "Dra. Pupuy Yartini",
+    "position": "Ka Kompetensi Keahlian Pemasaran",
+    "image": "/images/profil/struktural/ka-pm.png"
+  },
+  {
+    "label": "Teaching Factory",
+    "title": "Gridas Mart",
+    "subtitle": "Pemasaran",
+    "icon": "/images/landing/mitra/alfamart.png",
+    "pointer": [
+      "Food", 
+      "Non-Food",
+      "Stationary",
+      "Fashion"
+    ]
+  }
+]

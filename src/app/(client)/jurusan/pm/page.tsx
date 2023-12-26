@@ -2,25 +2,25 @@
 
 import { Tabbar, TabContent } from '@/components/ui/tab'
 import { CardKurikulum } from '@/components/ui/cards/kurikulum'
-import jurusan from '@/data/pplg.json'
+import jurusan from '@/data/pm.json'
 import Container from '@/components/common/layouts/Container'
 import { useState } from 'react'
 import { HeroJurusan } from '@/components/common/sections/hero'
 
-export default function Pplg() {
+export default function Pm() {
   const [activeIndex, setActiveIndex] = useState(0)
 
   const images = [
-    '/images/jurusan/pplg/pplg-slide-1.png',
-    '/images/jurusan/pplg/pplg-slide-2.png',
-    '/images/jurusan/pplg/pplg-slide-3.png'
+    '/images/jurusan/pm/pm-slide-1.png',
+    '/images/jurusan/pm/pm-slide-2.png',
+    '/images/jurusan/pm/pm-slide-3.png'
   ]
 
   return (
     <main>
       <HeroJurusan
-        title="Pengembangan Perangkat Lunak dan Gim"
-        description="Salah satu kompetensi keahlian di SMKN 2 Sumedang dalam bidang Teknologi Komputer dan Informatika."
+        title="Pemasaran"
+        description="Jurusan yang mempelajari seluk beluk pasar secara meluas termasuk menciptakan produk yang berkualitas."
         images={images}
       />
       <Container className="py-16 lg:flex">
