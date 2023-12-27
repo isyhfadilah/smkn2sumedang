@@ -7,10 +7,27 @@ export const menu = [
     name: 'Profil',
     link: '/profil'
   },
-  //   {
-  //     name: 'Jurusan',
-  //     link: '/jurusan'
-  //   },
+  // {
+  //   name:'Jurusan',
+  //   link: [
+  //     {
+  //       name: 'Pengembangan Perangkat Lunak dan Gim',
+  //       link: '/jurusan/pplg'
+  //     },
+  //     {
+  //       name: 'Akuntansi',
+  //       link: '/jurusan/akl'
+  //     },
+  //     {
+  //       name: 'Manajemen Perkantoran dan Layanan Bisnis',
+  //       link: '/jurusan/mplb'
+  //     },
+  //     {
+  //       name: 'Pemasaran',
+  //       link: '/jurusan/pm'
+  //     }
+  //   ]
+  // },
   {
     name: 'Ekstrakurikuler',
     link: '/ekstrakurikuler'
