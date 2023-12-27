@@ -2,10 +2,12 @@
 
 import { Tabbar, TabContent } from '@/components/ui/tab'
 import { CardKurikulum } from '@/components/ui/cards/kurikulum'
-import jurusan from '@/data/akl.json'
 import Container from '@/components/common/layouts/Container'
 import { useState } from 'react'
 import { HeroJurusan } from '@/components/common/sections/hero'
+
+import jurusan from '@/data/akl.json'
+import { akl } from '@/data/kurikulum'
 
 export default function Akl() {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -37,7 +39,7 @@ export default function Akl() {
             position={jurusan[activeIndex]?.position}
           />
         </div>
-        <CardKurikulum />
+        <CardKurikulum data={akl} />
       </Container>
     </main>
   )

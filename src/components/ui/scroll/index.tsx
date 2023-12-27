@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+// import { animateScroll } from 'react-scroll';
 
 const ScrollButton = () => {
   const handleScroll = () => {
@@ -9,9 +11,12 @@ const ScrollButton = () => {
   }
 
   return (
-    <button onClick={handleScroll} className="bg-dark text-white py-2 px-4 rounded-full">
-      Scroll ke Bawah
-    </button>
+    <main>
+      <p className="text-center text-sm text-white/80 mb-2">Scroll</p>
+      <button onClick={handleScroll} className="bg-secondary text-white p-4 rounded-full shadow-dark shadow-inner">
+        <Image src="/icons/fi_arrow_down.svg" alt="arrow_down" height={24} width={24} />
+      </button>
+    </main>
   )
 }
 
