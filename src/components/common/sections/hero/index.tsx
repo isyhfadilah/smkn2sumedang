@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-// import ScrollButton from '@/components/ui/scroll'
+import ScrollButton from '@/components/ui/scroll'
 import Container from '@/components/common/layouts/Container'
 
 interface Props {
@@ -31,8 +31,9 @@ export const HeroJurusan: React.FC<Props> = ({ title, images, description }) => 
         <h1 className="font-semibold text-4xl lg:text-5xl lg:w-3/5">{title}</h1>
         <p className="lg:text-lg lg:w-2/3">{description}</p>
       </Container>
-      <div className="flex items-center justify-center pt-10">{/* <ScrollButton /> */}</div>
+      <div className="flex items-center justify-center pt-10">
+        <ScrollButton />
+      </div>
     </section>
   )
 }
-32
