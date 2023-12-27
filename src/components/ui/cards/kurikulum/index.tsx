@@ -1,15 +1,10 @@
 import Image from 'next/image'
 
-const data = [
-  'Basis Data',
-  'Sistem Komputer',
-  'Pemrograman Berbasis Teks, Grafis, dan Multimedia',
-  'Pemrograman Perangkat Bergerak (mobile)',
-  'Pemrograman Web',
-  'Pemrograman Berorientasi Objek'
-]
+interface Props {
+  data: string[]
+}
 
-export const CardKurikulum = () => {
+export const CardKurikulum = ({ data }: Props) => {
   return (
     <article className="mt-10 lg:mt-0 border border-black rounded-xl py-5 px-10 w-full lg:w-1/2">
       <h1 className="capitalize text-xl font-semibold text-center mb-5">kurikulum</h1>
