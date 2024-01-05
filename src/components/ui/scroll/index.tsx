@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-// import { animateScroll } from 'react-scroll';
+import { animateScroll } from 'react-scroll'
 
 const ScrollButton = () => {
   const handleScroll = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: 'smooth'
+    animateScroll.scrollToBottom({
+      duration: 1000,
+      smooth: true
     })
   }
 
